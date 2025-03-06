@@ -1,11 +1,15 @@
 import Header from "../components/header";
-import "../styles/globals.css";
+import "../app/globals.css";
+import "@fontsource/vazir";
+import Footer from "../components/footer";
+
 const RoutLayout = ({ children }) => {
   return (
     <html lang="fa-IR">
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
